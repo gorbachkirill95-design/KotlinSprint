@@ -5,7 +5,7 @@ fun main() {
     val money: Double = 70_000.0
     val rate: Double = 16.7 / 100
     val years: Int = 20
-    var finalMoney = money
+    var finalMoney: Double = money
 
     for (i in 1..years) {
         finalMoney += finalMoney * rate
