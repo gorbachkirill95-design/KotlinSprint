@@ -23,4 +23,6 @@ fun main() {
         consolationPrize -> println("Вы выиграли утешительный приз")
         else -> println("Неудача!")
     }
+
+    println("Правильные числа: $firstNumber, $secondNumber")
 }
