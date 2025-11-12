@@ -1,7 +1,7 @@
 package org.example.lesson4
 
 fun main() {
-    val tables: Int = 13
+    val tables = 13
     val today = 13
     val tomorrow = 9
     val reservToDay = tables > today
