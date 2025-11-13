@@ -22,7 +22,7 @@ fun main() {
 
     val departure =
         (damage == NO_DAMAGE && crew in MIN_COUNT_CREW..MAX_COUNT_CREW && provisions > MIN_COUNT_PROVISION) ||
-                (damage == HAS_DAMAGE && crew == MAX_COUNT_CREW && goodWeather==GOOD_WEATHER && provisions >= MIN_COUNT_PROVISION)
+                (damage == HAS_DAMAGE && crew == MAX_COUNT_CREW && goodWeather == GOOD_WEATHER && provisions >= MIN_COUNT_PROVISION)
 
     println("Корабль может отправиться в плавание: $departure")
 }
